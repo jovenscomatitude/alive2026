@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: oneday;
+    src: url(one-day.otf);
+}
+
+@font-face {
+    font-family: bebas;
+    src: url(Bebas.otf);
+}
+
+@font-face {
+    font-family: coluna;
+    src: url(Coluna.otf);
+}
+
+@font-face {
+    font-family: arame;
+    src: url(arame.ttf);
+}
+
+@font-face {
+    font-family: Tusker;
+    src: url(tusker-grotesk.ttf);
+}
+
+h1, p {
+    color: #000000;
+}
+
+body{
+    background: url(back.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.link-bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+.link-bio img{
+    width: 150px;
+    height: 150px;
+    border: solid 3px rgb(131, 27, 23);
+    
+}
+
+.link-bio h1{
+    font-size: 40px;
+}
+
+.link-bio a {
+    background: url(bot1.jpeg) no-repeat;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    width: 300px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.link-bio a:hover {
+    background-color: rgb(162,209,244);
+}
+
+.titulo {
+    text-align: center;
+    font-family: oneday;
+}
+
+.titulo1 {
+    text-align: center;
+    font-family: Tusker;
+}
+
+.titulo2 {
+    text-align: center;
+    font-family: coluna;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+}
+
+.titulo3 {
+    text-align: center;
+    font-family: bebas;
+}
+
+.rodape {
+    text-align: center;
+}
